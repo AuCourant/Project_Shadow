@@ -1,0 +1,114 @@
+﻿Log file open, 05/20/15 11:29:32
+LogInit:Display: Running engine for game: Project_Shadow
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.05.20-15.29.32:853][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.05.20-15.29.32:908][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.20-15.29.32:921][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.20-15.29.32:930][  0]LogInit: Object subsystem initialized
+[2015.05.20-15.29.32:931][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.05.20-15.29.32:931][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.20-15.29.32:931][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.05.20-15.29.32:931][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.20-15.29.32:931][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.05.20-15.29.32:931][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.20-15.29.32:932][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.20-15.29.32:932][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.20-15.29.32:937][  0]LogInit: Computer: LOU
+[2015.05.20-15.29.32:937][  0]LogInit: User: LouIII
+[2015.05.20-15.29.32:937][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.05.20-15.29.32:937][  0]LogInit: High frequency timer resolution =2.338337 MHz
+[2015.05.20-15.29.32:938][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2015.05.20-15.29.32:938][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.20-15.29.32:938][  0]LogMemory: Process Physical Memory: 46.70 MB used, 46.70 MB peak
+[2015.05.20-15.29.32:938][  0]LogMemory: Process Virtual Memory: 24.96 MB used, 24.97 MB peak
+[2015.05.20-15.29.32:938][  0]LogMemory: Physical Memory: 4447.98 MB used, 16303.71 MB total
+[2015.05.20-15.29.32:938][  0]LogMemory: Virtual Memory: 287.49 MB used, 134217728.00 MB total
+[2015.05.20-15.29.32:966][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 765M     (Feature Level 11_0)
+[2015.05.20-15.29.32:966][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.05.20-15.29.32:980][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 765M     (Feature Level 11_0)
+[2015.05.20-15.29.32:980][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.05.20-15.29.32:982][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.05.20-15.29.32:982][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.05.20-15.29.32:982][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.20-15.29.32:989][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.05.20-15.29.33:002][  0]LogD3D11RHI: Async texture creation enabled
+[2015.05.20-15.29.33:065][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.05.20-15.29.33:124][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.05.20-15.29.33:124][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.05.20-15.29.33:203][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.05.20-15.29.35:393][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.20-15.29.35:907][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.20-15.29.35:966][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.05.20-15.29.36:016][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB C:/Users/luisr_000/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.20-15.29.36:016][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/luisr_000/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.05.20-15.29.36:016][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.20-15.29.36:016][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.05.20-15.29.36:131][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.05.20-15.29.36:144][  0]LogDerivedDataCache: Using Local data cache path C:/Users/luisr_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.05.20-15.29.36:414][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.05.20-15.29.36:414][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.05.20-15.29.36:761][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.05.20-15.29.36:833][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.05.20-15.29.37:560][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.05.20-15.29.37:755][  0]SourceControl: Info Source control is disabled
+[2015.05.20-15.29.37:755][  0]SourceControl: Info Source control is disabled
+[2015.05.20-15.29.37:755][  0]SourceControl: Info Source control is disabled
+[2015.05.20-15.29.37:755][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.20-15.29.37:755][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.20-15.29.37:764][  0]SourceControl: Info Source control is disabled
+[2015.05.20-15.29.37:949][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.05.20-15.29.37:949][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.05.20-15.29.38:027][  0]LogEngine: Initializing Engine...
+[2015.05.20-15.29.40:188][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.05.20-15.29.40:196][  0]LogInit: FAudioDevice initialized.
+[2015.05.20-15.29.40:232][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.05.20-15.29.40:256][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/luisr_000/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.20-15.29.40:260][  0]LogInit: Texture streaming: Enabled
+[2015.05.20-15.29.40:343][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.05.20-15.29.40:344][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.20-15.29.40:344][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.20-15.29.40:344][  0]LogAnalytics: SetUserId 06a592394ae99916f49c3d9c3c9f503a|b280ebf5e1b3428db734f63de3c232be|784865b8-3393-4bba-9a10-0fd663c4f742
+[2015.05.20-15.29.40:344][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.05.20-15.29.40:368][  0]LogInit: Transaction tracking system initialized
+[2015.05.20-15.29.40:535][  0]BlueprintLog: New page: Editor Load
+[2015.05.20-15.29.40:574][  0]LogAssetRegistry: FAssetRegistry took 0.0104 seconds to start up
+[2015.05.20-15.29.40:574][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.05.20-15.29.41:131][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.20-15.29.41:510][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.20-15.29.41:766][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.05.20-15.29.41:767][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.05.20-15.29.41:771][  0]LogConsoleResponse:Display: 
+[2015.05.20-15.29.41:893][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.05.20-15.29.42:032][  0]SourceControl: Info Source control is disabled
+[2015.05.20-15.29.42:032][  0]Cmd: MAP LOAD FILE="../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.20-15.29.42:032][  0]LightingResults: New page: Lighting Build
+[2015.05.20-15.29.42:044][  0]MapCheck: New page: Map Check
+[2015.05.20-15.29.42:044][  0]LightingResults: New page: Lighting Build
+[2015.05.20-15.29.42:053][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000022B7902980
+[2015.05.20-15.29.43:323][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.20-15.29.44:289][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2015.05.20-15.29.44:289][  0]Cmd: MAP CHECKDEP
+[2015.05.20-15.29.44:290][  0]MapCheck: New page: SideScrollerExampleMap - May 20, 2015, 7:29:44 AM
+[2015.05.20-15.29.44:367][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 77.322ms to complete.
+[2015.05.20-15.29.44:367][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 2.336
+[2015.05.20-15.29.44:507][  0]LogCollectionManager: Loaded 0 collections in 0.001584 seconds
+[2015.05.20-15.29.44:518][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 1696 classes and 261 folders.
+[2015.05.20-15.29.44:549][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0017 seconds. Added 1 classes and 2 folders.
+[2015.05.20-15.29.44:597][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.05.20-15.29.44:598][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.05.20-15.29.44:605][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.05.20-15.29.44:632][  0]LogLoad: Full Startup: 13.60 seconds (BP compile: 0.52 seconds)
+[2015.05.20-15.29.44:674][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP'
+[2015.05.20
