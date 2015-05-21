@@ -1,4 +1,4 @@
-﻿Log file open, 05/21/15 00:22:26
+﻿Log file open, 05/21/15 11:10:38
 LogInit:Display: Running engine for game: Project_Shadow
 LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
 LogInit: API Version: 2455222
@@ -9,681 +9,381 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.7
 LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Unreal Engine/4.7/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2015.05.21-04.22.26:922][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
-[2015.05.21-04.22.26:977][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.05.21-04.22.26:995][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.05.21-04.22.27:008][  0]LogInit: Object subsystem initialized
-[2015.05.21-04.22.27:010][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
-[2015.05.21-04.22.27:010][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.05.21-04.22.27:010][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2015.05.21-04.22.27:010][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.05.21-04.22.27:010][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2015.05.21-04.22.27:010][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.05.21-04.22.27:011][  0]LogInit: Selected Device Profile: [Windows]
-[2015.05.21-04.22.27:011][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.05.21-04.22.27:021][  0]LogInit: Computer: LOU
-[2015.05.21-04.22.27:021][  0]LogInit: User: LouIII
-[2015.05.21-04.22.27:021][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.05.21-04.22.27:021][  0]LogInit: High frequency timer resolution =2.338338 MHz
-[2015.05.21-04.22.27:021][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
-[2015.05.21-04.22.27:021][  0]LogMemory: Platform Memory Stats for Windows
-[2015.05.21-04.22.27:021][  0]LogMemory: Process Physical Memory: 46.76 MB used, 46.76 MB peak
-[2015.05.21-04.22.27:021][  0]LogMemory: Process Virtual Memory: 26.82 MB used, 26.82 MB peak
-[2015.05.21-04.22.27:021][  0]LogMemory: Physical Memory: 4073.54 MB used, 16303.71 MB total
-[2015.05.21-04.22.27:021][  0]LogMemory: Virtual Memory: 289.42 MB used, 134217728.00 MB total
-[2015.05.21-04.22.27:049][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 765M     (Feature Level 11_0)
-[2015.05.21-04.22.27:049][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
-[2015.05.21-04.22.27:062][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 765M     (Feature Level 11_0)
-[2015.05.21-04.22.27:062][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
-[2015.05.21-04.22.27:064][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.05.21-04.22.27:064][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
-[2015.05.21-04.22.27:064][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.05.21-04.22.27:069][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.05.21-04.22.27:083][  0]LogD3D11RHI: Async texture creation enabled
-[2015.05.21-04.22.27:147][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
-[2015.05.21-04.22.27:202][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+[2015.05.21-15.10.38:472][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.05.21-15.10.38:527][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.21-15.10.38:538][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.21-15.10.38:547][  0]LogInit: Object subsystem initialized
+[2015.05.21-15.10.38:548][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.05.21-15.10.38:548][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.21-15.10.38:548][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.05.21-15.10.38:548][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.21-15.10.38:548][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.05.21-15.10.38:548][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.21-15.10.38:549][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.21-15.10.38:549][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.21-15.10.38:555][  0]LogInit: Computer: LOU
+[2015.05.21-15.10.38:555][  0]LogInit: User: LouIII
+[2015.05.21-15.10.38:555][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.05.21-15.10.38:555][  0]LogInit: High frequency timer resolution =2.338338 MHz
+[2015.05.21-15.10.38:555][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2015.05.21-15.10.38:555][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.21-15.10.38:555][  0]LogMemory: Process Physical Memory: 46.70 MB used, 46.70 MB peak
+[2015.05.21-15.10.38:555][  0]LogMemory: Process Virtual Memory: 26.83 MB used, 26.83 MB peak
+[2015.05.21-15.10.38:555][  0]LogMemory: Physical Memory: 3862.32 MB used, 16303.71 MB total
+[2015.05.21-15.10.38:555][  0]LogMemory: Virtual Memory: 289.42 MB used, 134217728.00 MB total
+[2015.05.21-15.10.38:581][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 765M     (Feature Level 11_0)
+[2015.05.21-15.10.38:581][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.05.21-15.10.38:596][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 765M     (Feature Level 11_0)
+[2015.05.21-15.10.38:596][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.05.21-15.10.38:597][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.05.21-15.10.38:597][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.05.21-15.10.38:597][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.21-15.10.38:601][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.05.21-15.10.38:615][  0]LogD3D11RHI: Async texture creation enabled
+[2015.05.21-15.10.38:673][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.05.21-15.10.38:726][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
 Resource: (C:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
 Resource: (C:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
-[2015.05.21-04.22.27:202][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+[2015.05.21-15.10.38:726][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
 Resource: (C:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
 Resource: (C:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
-[2015.05.21-04.22.27:278][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.05.21-04.22.29:466][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.05.21-04.22.29:975][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.05.21-04.22.30:035][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.05.21-04.22.30:076][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/luisr_000/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.05.21-04.22.30:076][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/luisr_000/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
-[2015.05.21-04.22.30:077][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.05.21-04.22.30:077][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.05.21-04.22.30:187][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.05.21-04.22.30:200][  0]LogDerivedDataCache: Using Local data cache path C:/Users/luisr_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.05.21-04.22.30:461][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.05.21-04.22.30:461][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.05.21-04.22.30:805][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.05.21-04.22.30:885][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
-[2015.05.21-04.22.31:605][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.05.21-04.22.31:835][  0]SourceControl: Info Source control is disabled
-[2015.05.21-04.22.31:835][  0]SourceControl: Info Source control is disabled
-[2015.05.21-04.22.31:835][  0]SourceControl: Info Source control is disabled
-[2015.05.21-04.22.31:835][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.05.21-04.22.31:835][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.05.21-04.22.31:844][  0]SourceControl: Info Source control is disabled
-[2015.05.21-04.22.32:024][  0]LogObj: 24232 objects as part of root set at end of initial load.
-[2015.05.21-04.22.32:024][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
-[2015.05.21-04.22.32:102][  0]LogEngine: Initializing Engine...
-[2015.05.21-04.22.34:249][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2015.05.21-04.22.34:256][  0]LogInit: FAudioDevice initialized.
-[2015.05.21-04.22.34:292][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.05.21-04.22.34:334][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/luisr_000/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.05.21-04.22.34:338][  0]LogInit: Texture streaming: Enabled
-[2015.05.21-04.22.34:424][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.05.21-04.22.34:424][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
-[2015.05.21-04.22.34:424][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
-[2015.05.21-04.22.34:424][  0]LogAnalytics: SetUserId 06a592394ae99916f49c3d9c3c9f503a|b280ebf5e1b3428db734f63de3c232be|784865b8-3393-4bba-9a10-0fd663c4f742
-[2015.05.21-04.22.34:424][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
-[2015.05.21-04.22.34:445][  0]LogInit: Transaction tracking system initialized
-[2015.05.21-04.22.34:627][  0]BlueprintLog: New page: Editor Load
-[2015.05.21-04.22.34:662][  0]LogAssetRegistry: FAssetRegistry took 0.0103 seconds to start up
-[2015.05.21-04.22.34:662][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.05.21-04.22.35:221][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.05.21-04.22.35:589][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.05.21-04.22.35:840][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
-[2015.05.21-04.22.35:840][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
-[2015.05.21-04.22.35:844][  0]LogConsoleResponse:Display: 
-[2015.05.21-04.22.35:958][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.05.21-04.22.36:091][  0]SourceControl: Info Source control is disabled
-[2015.05.21-04.22.36:091][  0]Cmd: MAP LOAD FILE="../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.05.21-04.22.36:091][  0]LightingResults: New page: Lighting Build
-[2015.05.21-04.22.36:103][  0]MapCheck: New page: Map Check
-[2015.05.21-04.22.36:103][  0]LightingResults: New page: Lighting Build
-[2015.05.21-04.22.36:110][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000ACF052980
-[2015.05.21-04.22.37:501][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.05.21-04.22.38:391][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2015.05.21-04.22.38:392][  0]Cmd: MAP CHECKDEP
-[2015.05.21-04.22.38:392][  0]MapCheck: New page: SideScrollerExampleMap - May 20, 2015, 8:22:38 PM
-[2015.05.21-04.22.38:469][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 77.617ms to complete.
-[2015.05.21-04.22.38:470][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 2.378
-[2015.05.21-04.22.38:595][  0]LogCollectionManager: Loaded 0 collections in 0.002212 seconds
-[2015.05.21-04.22.38:607][  0]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 1696 classes and 261 folders.
-[2015.05.21-04.22.38:640][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
-[2015.05.21-04.22.38:717][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.05.21-04.22.38:718][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
-[2015.05.21-04.22.38:724][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.05.21-04.22.38:753][  0]LogLoad: Full Startup: 13.70 seconds (BP compile: 0.57 seconds)
-[2015.05.21-04.22.39:132][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ProjectMain/Blueprints'
-[2015.05.21-04.22.39:202][  0]LogRenderer:Warning: Reallocating scene render targets to support 256x256 (Frame:1).
-[2015.05.21-04.22.39:339][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:4).
-[2015.05.21-04.22.39:851][  4]LogAssetRegistry: Asset discovery search completed in 5.2002 seconds
-[2015.05.21-04.22.51:460][555]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge5)
-[2015.05.21-04.22.54:070][697]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
-[2015.05.21-04.24.40:080][652]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-04.24.40:427][652]BlueprintEditorCompileResults: Info [0135.37] Compile of SideScrollerCharacter successful! [in 346 ms]
-[2015.05.21-04.24.41:456][672]LogSavePackage: Save=510.760620ms
-[2015.05.21-04.24.41:456][672]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacterF01E849E479A888F24A8D99404FB9BDB.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-04.30.32:618][ 75]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-04.30.32:891][ 75]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-04.30.32:922][ 75]BlueprintEditorCompileResults: Info [0487.87] Compile of SideScrollerCharacter successful! [in 302 ms]
-[2015.05.21-04.30.34:264][118]LogSavePackage: Save=482.839935ms
-[2015.05.21-04.30.34:264][118]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter78BFC70D46E544D31D3B5B903A0E8D12.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-04.31.05:304][873]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-04.31.05:577][873]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-04.31.05:609][873]BlueprintEditorCompileResults: Info [0520.56] Compile of SideScrollerCharacter successful! [in 304 ms]
-[2015.05.21-04.31.05:719][879]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-04.31.06:023][879]BlueprintEditorCompileResults: Info [0520.97] Compile of SideScrollerCharacter successful! [in 304 ms]
-[2015.05.21-04.31.07:046][903]LogSavePackage: Save=501.724304ms
-[2015.05.21-04.31.07:046][903]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter0EA8C626433A4577386556A3BBFCAED8.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-04.32.39:598][156]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-04.32.41:575][156]LogSavePackage: Save=1835.257324ms
-[2015.05.21-04.32.41:575][156]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerExampleMap_Auto13E573F384A8D1339722222B82DA91A36.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto1.umap'
-[2015.05.21-04.32.41:590][156]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 1.992
-[2015.05.21-04.32.41:590][156]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.992
-[2015.05.21-04.32.41:628][156]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter] ([1] browsable assets)...
-[2015.05.21-04.32.41:685][156]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter]
-[2015.05.21-04.32.41:685][156]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter]
-[2015.05.21-04.32.42:309][156]LogSavePackage: Save=613.495972ms
-[2015.05.21-04.32.42:336][156]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter_Auto13155FEC04F6D97998D164181C0D0A12C.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/Autosaves/Game/SideScrollerBP/Blueprints/SideScrollerCharacter_Auto1.uasset'
-[2015.05.21-04.32.42:353][156]LogFileHelpers: Auto-saving content packages took 0.763
-[2015.05.21-04.35.13:290][ 99]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-04.35.13:572][ 99]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-04.35.13:605][ 99]BlueprintEditorCompileResults: Info [0768.55] Compile of SideScrollerCharacter successful! [in 314 ms]
-[2015.05.21-04.35.14:630][121]LogSavePackage: Save=501.656738ms
-[2015.05.21-04.35.14:630][121]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter618A04604130AC2FC26865AF1BF93301.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-04.35.17:259][277]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-04.35.19:212][277]LogSavePackage: Save=1775.825439ms
-[2015.05.21-04.35.19:212][277]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerExampleMapC8C1BF9445D8DBB6328224A0D51F631B.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
-[2015.05.21-04.35.19:257][277]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 1.939
-[2015.05.21-04.38.07:965][528]LogEditorTransaction: Undo Create Pin Link
-[2015.05.21-04.38.15:514][946]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-04.38.15:838][946]BlueprintEditorCompileResults: Info [0950.79] Compile of SideScrollerCharacter successful! [in 323 ms]
-[2015.05.21-04.38.16:951][976]LogSavePackage: Save=515.060242ms
-[2015.05.21-04.38.16:951][976]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacterC4DE2B094CC7C59E618212B5A4026428.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-04.38.42:701][241]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-04.38.44:779][241]LogSavePackage: Save=1863.804565ms
-[2015.05.21-04.38.44:779][241]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerExampleMap102251294AFA570713E68D88DEA35E27.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
-[2015.05.21-04.38.44:825][241]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 2.059
-[2015.05.21-04.39.25:757][955]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-04.39.26:092][955]BlueprintEditorCompileResults: Info [1021.04] Compile of SideScrollerCharacter successful! [in 334 ms]
-[2015.05.21-04.39.27:389][994]LogSavePackage: Save=527.661499ms
-[2015.05.21-04.39.27:389][994]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter09E0F4034D8AF0C45A07379D2A50C682.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-04.39.28:538][ 61]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.05.21-04.39.28:542][ 61]LogPlayLevel: [PIE] Compiling SideScrollerExampleMap before PIE...
-[2015.05.21-04.39.28:586][ 61]LogPlayLevel: [PIE] Compiling HUD_Bars before PIE...
-[2015.05.21-04.39.28:636][ 61]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-04.39.28:655][ 61]LogPlayLevel: PIE:  Blueprint regeneration took 117 ms (2 blueprints)
-[2015.05.21-04.39.28:655][ 61]PIE: New page: PIE session: SideScrollerExampleMap (May 20, 2015, 8:39:28 PM)
-[2015.05.21-04.39.28:680][ 61]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024313s)
-[2015.05.21-04.39.28:681][ 61]LogPlayLevel: PIE: World Init took: (0.000964s)
-[2015.05.21-04.39.28:681][ 61]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.025509s)
-[2015.05.21-04.39.28:774][ 61]LogWorld: Game class is 'SideScrollerGameMode_C'
-[2015.05.21-04.39.28:776][ 61]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2015.05.21-04.39.28:781][ 61]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2015.05.21-00.39.28
-[2015.05.21-04.39.28:782][ 61]LogWorld: Bringing up level for play took: 0.005694
-[2015.05.21-04.39.28:782][ 61]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2015.05.21-04.39.28:879][ 61]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.152
-[2015.05.21-04.39.28:903][ 61]LogRenderer:Warning: Reallocating scene render targets to support 1296x760 (Frame:1395).
-[2015.05.21-04.39.34:933][312]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000AA19F4720
-[2015.05.21-04.41.13:999][530]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-04.41.14:315][530]BlueprintEditorCompileResults: Info [1129.26] Compile of SideScrollerCharacter successful! [in 315 ms]
-[2015.05.21-04.41.15:246][548]LogSavePackage: Save=521.327515ms
-[2015.05.21-04.41.15:246][548]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter5A919F224A8745DE9D07CCA82B4D530D.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-04.41.32:573][ 67]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-04.41.34:201][165]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-04.41.34:509][165]BlueprintEditorCompileResults: Info [1149.46] Compile of SideScrollerCharacter successful! [in 307 ms]
-[2015.05.21-04.41.35:455][184]LogSavePackage: Save=527.127808ms
-[2015.05.21-04.41.35:455][184]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter88CE6DE84F040457551BD1A9D197FCBF.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-04.41.36:457][233]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2015.05.21-04.41.57:250][453]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.05.21-04.41.57:253][453]LogPlayLevel: [PIE] Compiling SideScrollerExampleMap before PIE...
-[2015.05.21-04.41.57:299][453]LogPlayLevel: [PIE] Compiling HUD_Bars before PIE...
-[2015.05.21-04.41.57:345][453]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-04.41.57:363][453]LogPlayLevel: PIE:  Blueprint regeneration took 113 ms (2 blueprints)
-[2015.05.21-04.41.57:364][453]PIE: New page: PIE session: SideScrollerExampleMap (May 20, 2015, 8:41:57 PM)
-[2015.05.21-04.41.57:388][453]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023765s)
-[2015.05.21-04.41.57:389][453]LogPlayLevel: PIE: World Init took: (0.000893s)
-[2015.05.21-04.41.57:389][453]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.024880s)
-[2015.05.21-04.41.57:444][453]LogWorld: Game class is 'SideScrollerGameMode_C'
-[2015.05.21-04.41.57:447][453]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2015.05.21-04.41.57:452][453]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2015.05.21-00.41.57
-[2015.05.21-04.41.57:453][453]LogWorld: Bringing up level for play took: 0.005595
-[2015.05.21-04.41.57:454][453]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.424
-[2015.05.21-04.42.58:678][816]LogBlueprintUserMessages: DoubleJumpEnd
-[2015.05.21-04.43.24:802][157]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000AD2F9F1A0
-[2015.05.21-04.43.26:692][248]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.05.21-04.43.26:697][248]LogPlayLevel: [PIE] Compiling SideScrollerExampleMap before PIE...
-[2015.05.21-04.43.26:758][248]LogPlayLevel: PIE:  Blueprint regeneration took 65 ms (1 blueprints)
-[2015.05.21-04.43.26:758][248]PIE: New page: PIE session: SideScrollerExampleMap (May 20, 2015, 8:43:26 PM)
-[2015.05.21-04.43.26:783][248]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025336s)
-[2015.05.21-04.43.26:784][248]LogPlayLevel: PIE: World Init took: (0.000639s)
-[2015.05.21-04.43.26:784][248]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.026175s)
-[2015.05.21-04.43.26:817][248]LogWorld: Game class is 'SideScrollerGameMode_C'
-[2015.05.21-04.43.26:819][248]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2015.05.21-04.43.26:824][248]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2015.05.21-00.43.26
-[2015.05.21-04.43.26:825][248]LogWorld: Bringing up level for play took: 0.005886
-[2015.05.21-04.43.26:827][248]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.204
-[2015.05.21-04.43.27:364][270]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000A8489D620
-[2015.05.21-04.43.37:040][575]LogSavePackage: Save=1810.961426ms
-[2015.05.21-04.43.37:040][575]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerExampleMap3F70FDA9406805BFC9EB7DB9AE8EF622.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
-[2015.05.21-04.43.37:089][575]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 1.973
-[2015.05.21-04.47.59:584][166]LogSavePackage: Save=216.371201ms
-[2015.05.21-04.47.59:584][166]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter5D414C1241A3559AC5418B83A8D9BBA5.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-04.49.23:986][147]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-04.49.24:184][147]BlueprintEditorCompileResults: Info [1619.13] Compile of SideScrollerCharacter successful! [in 197 ms]
-[2015.05.21-04.49.25:467][185]LogSavePackage: Save=527.036316ms
-[2015.05.21-04.49.25:467][185]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacterB6FE333C420FCB98B121FEA0541D191E.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-04.49.27:800][319]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-04.49.29:868][319]LogSavePackage: Save=1825.017578ms
-[2015.05.21-04.49.29:868][319]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerExampleMapB99EBA8C4F227BB6573748AFC6B1C385.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
-[2015.05.21-04.49.29:915][319]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 2.044
-[2015.05.21-04.50.54:340][991]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-04.50.54:541][991]BlueprintEditorCompileResults: Info [1709.49] Compile of SideScrollerCharacter successful! [in 200 ms]
-[2015.05.21-04.50.55:601][ 14]LogSavePackage: Save=569.216248ms
-[2015.05.21-04.50.55:601][ 14]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacterB825518845D7C63FED415FA8D01F161B.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-04.54.54:280][294]LogSavePackage: Save=215.741272ms
-[2015.05.21-04.54.54:280][294]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter46E71042481947FF1443EAB10B6AD650.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-04.54.55:082][342]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-04.54.55:251][342]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-04.54.55:284][342]BlueprintEditorCompileResults: Info [1950.23] Compile of SideScrollerCharacter successful! [in 201 ms]
-[2015.05.21-04.54.57:081][409]LogSavePackage: Save=523.181396ms
-[2015.05.21-04.54.57:081][409]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter4789F2CD42C3487157C359B732BA3CB2.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-04.57.07:821][295]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-04.59.33:186][637]LogSavePackage: Save=1799.960449ms
-[2015.05.21-04.59.33:186][637]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerExampleMap_Auto22E6E837B4B2F021DC8E2A593EDDE13CC.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto2.umap'
-[2015.05.21-04.59.33:227][637]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 1.939
-[2015.05.21-04.59.33:227][637]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.939
-[2015.05.21-04.59.33:264][637]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter] ([1] browsable assets)...
-[2015.05.21-04.59.33:304][637]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter]
-[2015.05.21-04.59.33:304][637]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter]
-[2015.05.21-04.59.33:983][637]LogSavePackage: Save=671.361877ms
-[2015.05.21-04.59.33:984][637]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter_Auto2046B98BE4406F04388902C9A67F1BD63.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/Autosaves/Game/SideScrollerBP/Blueprints/SideScrollerCharacter_Auto2.uasset'
-[2015.05.21-04.59.33:993][637]LogFileHelpers: Auto-saving content packages took 0.765
-[2015.05.21-04.59.35:788][742]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-04.59.35:970][742]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-04.59.36:000][742]BlueprintEditorCompileResults: Info [2230.95] Compile of SideScrollerCharacter successful! [in 212 ms]
-[2015.05.21-04.59.37:365][784]LogSavePackage: Save=533.238586ms
-[2015.05.21-04.59.37:365][784]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacterE8A233FE43E14DB830D9909FD6BF51D3.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-04.59.38:959][871]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-04.59.40:910][871]LogSavePackage: Save=1766.421265ms
-[2015.05.21-04.59.40:910][871]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerExampleMap061042CF42639F49A2D300ACC95B2415.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
-[2015.05.21-04.59.40:958][871]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 1.925
-[2015.05.21-05.00.13:562][101]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-05.00.13:779][101]BlueprintEditorCompileResults: Info [2268.73] Compile of SideScrollerCharacter successful! [in 217 ms]
-[2015.05.21-05.00.15:027][135]LogSavePackage: Save=536.558472ms
-[2015.05.21-05.00.15:027][135]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacterE63D596B417AADEB78CC4481B4627628.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-05.00.24:265][347]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-05.00.24:452][347]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-05.00.24:488][347]BlueprintEditorCompileResults: Info [2279.44] Compile of SideScrollerCharacter successful! [in 221 ms]
-[2015.05.21-05.00.24:695][358]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2015.05.21-05.00.24:695][358]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints'
-[2015.05.21-05.00.28:011][498]LogSavePackage: Save=574.132141ms
-[2015.05.21-05.00.28:011][498]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter54A6E6BA4F9310355722729D9893B97D.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-05.01.06:760][997]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-05.01.08:228][ 85]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-05.01.08:445][ 85]BlueprintEditorCompileResults: Info [2323.39] Compile of SideScrollerCharacter successful! [in 216 ms]
-[2015.05.21-05.01.09:444][106]LogSavePackage: Save=536.244568ms
-[2015.05.21-05.01.09:444][106]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter699DE5D645599905222EC8AEE2A0044B.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-05.01.38:460][705]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-05.01.38:650][705]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-05.01.38:684][705]BlueprintEditorCompileResults: Info [2353.63] Compile of SideScrollerCharacter successful! [in 224 ms]
-[2015.05.21-05.01.39:638][721]LogSavePackage: Save=549.355591ms
-[2015.05.21-05.01.39:638][721]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter6B60E54F41FE2D4056ADD69908AB6EF0.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-05.01.40:964][797]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-05.01.43:009][797]LogSavePackage: Save=1865.070801ms
-[2015.05.21-05.01.43:009][797]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerExampleMapD67DD945415A2B04D9D1829F357A6FC1.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
-[2015.05.21-05.01.43:061][797]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 2.032
-[2015.05.21-05.04.16:007][741]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-05.04.16:223][741]BlueprintEditorCompileResults: Info [2511.17] Compile of SideScrollerCharacter successful! [in 215 ms]
-[2015.05.21-05.04.17:400][771]LogSavePackage: Save=540.327759ms
-[2015.05.21-05.04.17:400][771]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter0754BF494FDDEEC0D98B3296F12BE6FC.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-05.04.20:004][926]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-05.04.21:648][ 25]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-05.04.21:861][ 25]BlueprintEditorCompileResults: Info [2516.81] Compile of SideScrollerCharacter successful! [in 213 ms]
-[2015.05.21-05.04.22:977][ 53]LogSavePackage: Save=535.692871ms
-[2015.05.21-05.04.22:977][ 53]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter396FEFAF434805C27BBB328C87B16C3D.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-05.06.51:703][ 52]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-05.06.51:893][ 52]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-05.06.51:926][ 52]BlueprintEditorCompileResults: Info [2666.87] Compile of SideScrollerCharacter successful! [in 223 ms]
-[2015.05.21-05.06.53:004][ 73]LogSavePackage: Save=548.097839ms
-[2015.05.21-05.06.53:004][ 73]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacterDDA62BF9409DD351C101B29F5342831C.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-05.10.20:922][958]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-05.10.21:112][958]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-05.10.21:144][958]BlueprintEditorCompileResults: Info [2876.09] Compile of SideScrollerCharacter successful! [in 222 ms]
-[2015.05.21-05.10.22:316][985]LogSavePackage: Save=567.524902ms
-[2015.05.21-05.10.22:316][985]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacterDB1D43AD4A4F8E250A2A78B119F09304.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-05.10.24:277][101]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-05.10.26:246][101]LogSavePackage: Save=1779.170898ms
-[2015.05.21-05.10.26:246][101]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerExampleMapF687961F48FCEABB1230EABB5B63EB56.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
-[2015.05.21-05.10.26:294][101]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 1.957
-[2015.05.21-05.12.52:627][858]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-05.12.52:859][858]BlueprintEditorCompileResults: Info [3027.81] Compile of SideScrollerCharacter successful! [in 231 ms]
-[2015.05.21-05.12.54:194][895]LogSavePackage: Save=604.179565ms
-[2015.05.21-05.12.54:194][895]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter0E7F604346F003D8D4C38AB09AEB7EFA.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-05.14.01:724][850]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-05.14.01:926][850]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-05.14.01:959][850]BlueprintEditorCompileResults: Info [3096.91] Compile of SideScrollerCharacter successful! [in 234 ms]
-[2015.05.21-05.14.03:060][872]LogSavePackage: Save=582.494080ms
-[2015.05.21-05.14.03:060][872]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter51A8CE1344B79BED60F3AA893EB953C5.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-05.14.11:010][ 36]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-05.14.13:039][ 36]LogSavePackage: Save=1828.420898ms
-[2015.05.21-05.14.13:039][ 36]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerExampleMapDD2F97EA451F566BBA51D9886D448A18.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
-[2015.05.21-05.14.13:090][ 36]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 1.993
-[2015.05.21-05.14.47:214][740]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-05.14.47:441][740]BlueprintEditorCompileResults: Info [3142.39] Compile of SideScrollerCharacter successful! [in 226 ms]
-[2015.05.21-05.14.48:521][763]LogSavePackage: Save=586.351501ms
-[2015.05.21-05.14.48:521][763]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter55CEF80249E3B5A557C9138F879561F4.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-05.14.49:787][837]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-05.14.51:750][837]LogSavePackage: Save=1769.890015ms
-[2015.05.21-05.14.51:750][837]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerExampleMap8658F4BC4114481F9CC5CC81435F2579.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
-[2015.05.21-05.14.51:797][837]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 1.938
-[2015.05.21-05.16.31:795][899]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-05.16.32:022][899]BlueprintEditorCompileResults: Info [3246.97] Compile of SideScrollerCharacter successful! [in 226 ms]
-[2015.05.21-05.16.33:312][930]LogSavePackage: Save=589.278809ms
-[2015.05.21-05.16.33:312][930]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacterA3929024433AC1AED2C2B28C7CADFE58.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-05.17.15:889][564]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-05.17.16:087][564]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-05.17.16:118][564]BlueprintEditorCompileResults: Info [3291.07] Compile of SideScrollerCharacter successful! [in 228 ms]
-[2015.05.21-05.17.17:344][591]LogSavePackage: Save=632.840942ms
-[2015.05.21-05.17.17:344][591]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacterF98ABC2641EF7F30C76681824DE172C7.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-05.18.16:546][151]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-05.18.16:741][151]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-05.18.16:773][151]BlueprintEditorCompileResults: Info [3351.72] Compile of SideScrollerCharacter successful! [in 226 ms]
-[2015.05.21-05.18.18:105][188]LogSavePackage: Save=578.238037ms
-[2015.05.21-05.18.18:105][188]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter9277520E47914BEA9E9EC6B50574A2DA.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-05.19.26:659][475]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-05.19.26:864][475]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-05.19.26:900][475]BlueprintEditorCompileResults: Info [3421.85] Compile of SideScrollerCharacter successful! [in 241 ms]
-[2015.05.21-05.19.28:052][497]LogSavePackage: Save=596.447571ms
-[2015.05.21-05.19.28:052][497]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter96167BA844813BB0A757BD94F51BB753.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-05.19.29:318][571]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-05.19.31:383][571]LogSavePackage: Save=1834.803223ms
-[2015.05.21-05.19.31:383][571]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerExampleMap7BB5A86F47E62BFB554F78BB5E18AA2C.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
-[2015.05.21-05.19.31:431][571]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 2.038
-[2015.05.21-05.20.19:656][546]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-05.20.19:885][546]BlueprintEditorCompileResults: Info [3474.83] Compile of SideScrollerCharacter successful! [in 229 ms]
-[2015.05.21-05.20.21:132][578]LogSavePackage: Save=578.478394ms
-[2015.05.21-05.20.21:132][578]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacterEAA14B4741AEA94EA6F18298134BA8BA.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-05.20.34:497][375]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-05.20.34:695][375]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-05.20.34:726][375]BlueprintEditorCompileResults: Info [3489.67] Compile of SideScrollerCharacter successful! [in 229 ms]
-[2015.05.21-05.20.35:730][393]LogSavePackage: Save=583.102173ms
-[2015.05.21-05.20.35:730][393]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter6A6463C54B766737C909BFAD06863BE7.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-05.20.36:975][464]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-05.20.38:925][464]LogSavePackage: Save=1766.001343ms
-[2015.05.21-05.20.38:925][464]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerExampleMap3844E5F043319846828D55BEFC8FDD75.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
-[2015.05.21-05.20.38:973][464]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 1.925
-[2015.05.21-05.22.00:904][494]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-05.22.01:137][494]BlueprintEditorCompileResults: Info [3576.08] Compile of SideScrollerCharacter successful! [in 232 ms]
-[2015.05.21-05.22.02:453][530]LogSavePackage: Save=576.704041ms
-[2015.05.21-05.22.02:453][530]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter8461DAAE4FBFEBCC28E89EB6E07D7861.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-05.22.22:439][849]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-05.22.39:027][812]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-05.22.39:274][812]BlueprintEditorCompileResults: Info [3614.22] Compile of SideScrollerCharacter successful! [in 247 ms]
-[2015.05.21-05.22.40:577][847]LogSavePackage: Save=595.118835ms
-[2015.05.21-05.22.40:577][847]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacterB33B87C04641BD83AF8967B4350D2908.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-05.22.41:884][923]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.05.21-05.22.41:888][923]LogPlayLevel: [PIE] Compiling SideScrollerExampleMap before PIE...
-[2015.05.21-05.22.41:934][923]LogPlayLevel: [PIE] Compiling HUD_Bars before PIE...
-[2015.05.21-05.22.41:990][923]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-05.22.42:010][923]LogPlayLevel: PIE:  Blueprint regeneration took 125 ms (2 blueprints)
-[2015.05.21-05.22.42:010][923]PIE: New page: PIE session: SideScrollerExampleMap (May 20, 2015, 9:22:42 PM)
-[2015.05.21-05.22.42:033][923]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023078s)
-[2015.05.21-05.22.42:034][923]LogPlayLevel: PIE: World Init took: (0.000893s)
-[2015.05.21-05.22.42:034][923]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.024201s)
-[2015.05.21-05.22.42:088][923]LogWorld: Game class is 'SideScrollerGameMode_C'
-[2015.05.21-05.22.42:090][923]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2015.05.21-05.22.42:096][923]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2015.05.21-01.22.42
-[2015.05.21-05.22.42:097][923]LogWorld: Bringing up level for play took: 0.006056
-[2015.05.21-05.22.42:098][923]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2015.05.21-05.22.42:160][923]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 1.13
-[2015.05.21-05.22.45:187][ 41]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000B0F6E4C20
-[2015.05.21-05.22.51:480][283]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.05.21-05.22.51:483][283]LogPlayLevel: [PIE] Compiling SideScrollerExampleMap before PIE...
-[2015.05.21-05.22.51:544][283]LogPlayLevel: PIE:  Blueprint regeneration took 63 ms (1 blueprints)
-[2015.05.21-05.22.51:544][283]PIE: New page: PIE session: SideScrollerExampleMap (May 20, 2015, 9:22:51 PM)
-[2015.05.21-05.22.51:568][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023377s)
-[2015.05.21-05.22.51:569][283]LogPlayLevel: PIE: World Init took: (0.000939s)
-[2015.05.21-05.22.51:569][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.024542s)
-[2015.05.21-05.22.51:614][283]LogWorld: Game class is 'SideScrollerGameMode_C'
-[2015.05.21-05.22.51:616][283]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2015.05.21-05.22.51:622][283]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2015.05.21-01.22.51
-[2015.05.21-05.22.51:623][283]LogWorld: Bringing up level for play took: 0.006586
-[2015.05.21-05.22.51:624][283]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2015.05.21-05.22.51:678][283]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.647
-[2015.05.21-05.24.03:115][247]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000AB0976700
-[2015.05.21-05.28.34:530][473]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-05.28.34:763][473]BlueprintEditorCompileResults: Info [3969.71] Compile of SideScrollerCharacter successful! [in 233 ms]
-[2015.05.21-05.28.36:389][523]LogSavePackage: Save=604.162842ms
-[2015.05.21-05.28.36:389][523]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter50650A524F4E2C9734FAF3A0A1E2A2C5.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-05.28.37:349][579]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.05.21-05.28.37:352][579]LogPlayLevel: [PIE] Compiling SideScrollerExampleMap before PIE...
-[2015.05.21-05.28.37:396][579]LogPlayLevel: [PIE] Compiling HUD_Bars before PIE...
-[2015.05.21-05.28.37:446][579]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-05.28.37:469][579]LogPlayLevel: PIE:  Blueprint regeneration took 119 ms (2 blueprints)
-[2015.05.21-05.28.37:469][579]PIE: New page: PIE session: SideScrollerExampleMap (May 20, 2015, 9:28:37 PM)
-[2015.05.21-05.28.37:493][579]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023539s)
-[2015.05.21-05.28.37:494][579]LogPlayLevel: PIE: World Init took: (0.000756s)
-[2015.05.21-05.28.37:494][579]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.024509s)
-[2015.05.21-05.28.37:551][579]LogWorld: Game class is 'SideScrollerGameMode_C'
-[2015.05.21-05.28.37:553][579]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2015.05.21-05.28.37:558][579]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2015.05.21-01.28.37
-[2015.05.21-05.28.37:559][579]LogWorld: Bringing up level for play took: 0.005665
-[2015.05.21-05.28.37:559][579]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2015.05.21-05.28.37:607][579]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.577
-[2015.05.21-05.29.07:095][883]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000AD5BDB600
-[2015.05.21-05.29.28:365][154]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-05.29.28:601][154]BlueprintEditorCompileResults: Info [4023.55] Compile of SideScrollerCharacter successful! [in 235 ms]
-[2015.05.21-05.29.29:787][179]LogSavePackage: Save=580.919861ms
-[2015.05.21-05.29.29:787][179]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter180E17674604A7DEF7D540AB95089524.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-05.29.37:353][462]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.05.21-05.29.37:357][462]LogPlayLevel: [PIE] Compiling SideScrollerExampleMap before PIE...
-[2015.05.21-05.29.37:405][462]LogPlayLevel: [PIE] Compiling HUD_Bars before PIE...
-[2015.05.21-05.29.37:458][462]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-05.29.37:477][462]LogPlayLevel: PIE:  Blueprint regeneration took 124 ms (2 blueprints)
-[2015.05.21-05.29.37:477][462]PIE: New page: PIE session: SideScrollerExampleMap (May 20, 2015, 9:29:37 PM)
-[2015.05.21-05.29.37:501][462]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022953s)
-[2015.05.21-05.29.37:502][462]LogPlayLevel: PIE: World Init took: (0.000847s)
-[2015.05.21-05.29.37:502][462]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.024008s)
-[2015.05.21-05.29.37:545][462]LogWorld: Game class is 'SideScrollerGameMode_C'
-[2015.05.21-05.29.37:546][462]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2015.05.21-05.29.37:552][462]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2015.05.21-01.29.37
-[2015.05.21-05.29.37:553][462]LogWorld: Bringing up level for play took: 0.005826
-[2015.05.21-05.29.37:554][462]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.524
-[2015.05.21-05.30.10:004][219]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000AB462FA60
-[2015.05.21-05.30.21:424][869]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-05.30.21:657][869]BlueprintEditorCompileResults: Info [4076.60] Compile of SideScrollerCharacter successful! [in 233 ms]
-[2015.05.21-05.30.22:776][892]LogSavePackage: Save=581.857300ms
-[2015.05.21-05.30.22:776][892]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter36A940EC49C59A85603248A5D3B300FD.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-05.30.23:357][925]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.05.21-05.30.23:360][925]LogPlayLevel: [PIE] Compiling SideScrollerExampleMap before PIE...
-[2015.05.21-05.30.23:404][925]LogPlayLevel: [PIE] Compiling HUD_Bars before PIE...
-[2015.05.21-05.30.23:453][925]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-05.30.23:471][925]LogPlayLevel: PIE:  Blueprint regeneration took 114 ms (2 blueprints)
-[2015.05.21-05.30.23:471][925]PIE: New page: PIE session: SideScrollerExampleMap (May 20, 2015, 9:30:23 PM)
-[2015.05.21-05.30.23:496][925]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024427s)
-[2015.05.21-05.30.23:497][925]LogPlayLevel: PIE: World Init took: (0.000923s)
-[2015.05.21-05.30.23:497][925]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.025565s)
-[2015.05.21-05.30.23:547][925]LogWorld: Game class is 'SideScrollerGameMode_C'
-[2015.05.21-05.30.23:549][925]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2015.05.21-05.30.23:555][925]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2015.05.21-01.30.23
-[2015.05.21-05.30.23:555][925]LogWorld: Bringing up level for play took: 0.005667
-[2015.05.21-05.30.23:556][925]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2015.05.21-05.30.23:605][925]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.575
-[2015.05.21-05.30.38:132][501]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000AC8EF6020
-[2015.05.21-05.30.46:413][990]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.05.21-05.30.46:416][990]LogPlayLevel: [PIE] Compiling SideScrollerExampleMap before PIE...
-[2015.05.21-05.30.46:480][990]LogPlayLevel: PIE:  Blueprint regeneration took 66 ms (1 blueprints)
-[2015.05.21-05.30.46:480][990]PIE: New page: PIE session: SideScrollerExampleMap (May 20, 2015, 9:30:46 PM)
-[2015.05.21-05.30.46:504][990]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023739s)
-[2015.05.21-05.30.46:505][990]LogPlayLevel: PIE: World Init took: (0.000676s)
-[2015.05.21-05.30.46:505][990]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.024623s)
-[2015.05.21-05.30.46:547][990]LogWorld: Game class is 'SideScrollerGameMode_C'
-[2015.05.21-05.30.46:549][990]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2015.05.21-05.30.46:555][990]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2015.05.21-01.30.46
-[2015.05.21-05.30.46:556][990]LogWorld: Bringing up level for play took: 0.005941
-[2015.05.21-05.30.46:556][990]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2015.05.21-05.30.46:616][990]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.414
-[2015.05.21-05.31.05:314][741]LogBlueprintUserMessages: DoubleJumpEnd
-[2015.05.21-05.31.16:980][182]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000AC8EF4360
-[2015.05.21-05.31.23:734][459]LogSavePackage: Save=1769.266479ms
-[2015.05.21-05.31.23:734][459]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerExampleMap29C990464EDAA7267C3461A10CFD57A5.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
-[2015.05.21-05.31.23:782][459]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 1.995
-[2015.05.21-05.31.58:227][489]LogSavePackage: Save=270.418549ms
-[2015.05.21-05.31.58:227][489]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter25CCA7164C81BA647C4212B5D9A0F9F7.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-05.32.11:557][784]LogSavePackage: Save=269.713348ms
-[2015.05.21-05.32.11:557][784]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter671B595A4132A9B9FF2FDA8792DC46AF.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-05.32.21:224][339]LogSavePackage: Save=271.857605ms
-[2015.05.21-05.32.21:224][339]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter1CB0801042E0DC55D776AA9B544A9369.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
-[2015.05.21-05.32.21:613][362]BlueprintLog: New page: Compile SideScrollerCharacter
-[2015.05.21-05.32.21:843][362]BlueprintEditorCompileResults: Info [4196.79] Compile of SideScrollerCharacter successful! [in 230 ms]
-[2015.05.21-05.32.23:630][439]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.05.21-05.32.25:427][439]LogSavePackage: Save=1771.141724ms
-[2015.05.21-05.32.25:427][439]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerExampleMapEAD08BA240C118920DA512809D2C2EDB.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
-[2015.05.21-05.32.34:589][861]Cmd: QUIT_EDITOR
-[2015.05.21-05.32.34:801][861]LogExit: Preparing to exit.
-[2015.05.21-05.32.35:824][861]LogExit: Editor shut down
-[2015.05.21-05.32.35:824][861]LogExit: Transaction tracking system shut down
-[2015.05.21-05.32.35:825][861]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000ADA6C8E00
-[2015.05.21-05.32.35:825][861]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000AD2502E80
-[2015.05.21-05.32.35:826][861]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000A80DC8900
-[2015.05.21-05.32.35:826][861]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000A80E876A0
-[2015.05.21-05.32.35:826][861]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000AC8A92020
-[2015.05.21-05.32.35:827][861]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000A955705E0
-[2015.05.21-05.32.35:827][861]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000A8053CC20
-[2015.05.21-05.32.36:054][861]LogExit: Object subsystem successfully closed.
-[2015.05.21-05.32.36:101][861]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
-[2015.05.21-05.32.36:101][861]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
-[2015.05.21-05.32.36:101][861]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
-[2015.05.21-05.32.36:101][861]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
-[2015.05.21-05.32.36:101][861]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
-[2015.05.21-05.32.36:101][861]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
-[2015.05.21-05.32.36:101][861]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
-[2015.05.21-05.32.36:101][861]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
-[2015.05.21-05.32.36:101][861]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
-[2015.05.21-05.32.36:101][861]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
-[2015.05.21-05.32.36:101][861]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
-[2015.05.21-05.32.36:101][861]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
-[2015.05.21-05.32.36:101][861]LogModuleManager: Shutting down and abandoning module BspMode (165)
-[2015.05.21-05.32.36:101][861]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
-[2015.05.21-05.32.36:101][861]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
-[2015.05.21-05.32.36:102][861]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
-[2015.05.21-05.32.36:102][861]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
-[2015.05.21-05.32.36:102][861]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
-[2015.05.21-05.32.36:102][861]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
-[2015.05.21-05.32.36:102][861]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
-[2015.05.21-05.32.36:102][861]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
-[2015.05.21-05.32.36:102][861]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
-[2015.05.21-05.32.36:102][861]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
-[2015.05.21-05.32.36:102][861]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
-[2015.05.21-05.32.36:102][861]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
-[2015.05.21-05.32.36:102][861]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
-[2015.05.21-05.32.36:102][861]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
-[2015.05.21-05.32.36:102][861]LogModuleManager: Shutting down and abandoning module XmlParser (150)
-[2015.05.21-05.32.36:102][861]LogModuleManager: Shutting down and abandoning module Blutility (149)
-[2015.05.21-05.32.36:102][861]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
-[2015.05.21-05.32.36:102][861]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
-[2015.05.21-05.32.36:102][861]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
-[2015.05.21-05.32.36:890][861]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
-[2015.05.21-05.32.36:890][861]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
-[2015.05.21-05.32.36:890][861]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
-[2015.05.21-05.32.36:890][861]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
-[2015.05.21-05.32.36:890][861]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
-[2015.05.21-05.32.36:890][861]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
-[2015.05.21-05.32.36:890][861]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
-[2015.05.21-05.32.36:890][861]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
-[2015.05.21-05.32.36:890][861]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
-[2015.05.21-05.32.36:890][861]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
-[2015.05.21-05.32.36:890][861]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
-[2015.05.21-05.32.36:890][861]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
-[2015.05.21-05.32.36:890][861]LogModuleManager: Shutting down and abandoning module AutomationController (133)
-[2015.05.21-05.32.36:890][861]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
-[2015.05.21-05.32.36:890][861]LogModuleManager: Shutting down and abandoning module Layers (131)
-[2015.05.21-05.32.36:890][861]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
-[2015.05.21-05.32.36:890][861]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
-[2015.05.21-05.32.36:890][861]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
-[2015.05.21-05.32.36:891][861]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
-[2015.05.21-05.32.36:981][861]LogModuleManager: Shutting down and abandoning module Persona (126)
-[2015.05.21-05.32.36:981][861]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
-[2015.05.21-05.32.36:981][861]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
-[2015.05.21-05.32.36:981][861]LogModuleManager: Shutting down and abandoning module Kismet (123)
-[2015.05.21-05.32.36:981][861]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
-[2015.05.21-05.32.36:982][861]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
-[2015.05.21-05.32.36:982][861]LogModuleManager: Shutting down and abandoning module Toolbox (120)
-[2015.05.21-05.32.36:982][861]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
-[2015.05.21-05.32.36:982][861]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
-[2015.05.21-05.32.36:982][861]LogModuleManager: Shutting down and abandoning module OutputLog (117)
-[2015.05.21-05.32.36:982][861]LogModuleManager: Shutting down and abandoning module GammaUI (116)
-[2015.05.21-05.32.36:982][861]LogModuleManager: Shutting down and abandoning module Documentation (115)
-[2015.05.21-05.32.36:982][861]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
-[2015.05.21-05.32.36:982][861]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
-[2015.05.21-05.32.36:982][861]LogModuleManager: Shutting down and abandoning module HTTP (112)
-[2015.05.21-05.32.36:982][861]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
-[2015.05.21-05.32.36:982][861]LogModuleManager: Shutting down and abandoning module Analytics (110)
-[2015.05.21-05.32.36:982][861]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
-[2015.05.21-05.32.36:982][861]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
-[2015.05.21-05.32.36:982][861]LogModuleManager: Shutting down and abandoning module AIModule (107)
-[2015.05.21-05.32.36:982][861]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
-[2015.05.21-05.32.37:117][861]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
-[2015.05.21-05.32.37:117][861]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
-[2015.05.21-05.32.37:117][861]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
-[2015.05.21-05.32.37:117][861]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
-[2015.05.21-05.32.37:117][861]LogModuleManager: Shutting down and abandoning module CableComponent (101)
-[2015.05.21-05.32.37:117][861]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
-[2015.05.21-05.32.37:117][861]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
-[2015.05.21-05.32.37:117][861]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
-[2015.05.21-05.32.37:117][861]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
-[2015.05.21-05.32.37:117][861]LogModuleManager: Shutting down and abandoning module MainFrame (96)
-[2015.05.21-05.32.37:117][861]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
-[2015.05.21-05.32.37:117][861]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
-[2015.05.21-05.32.37:117][861]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
-[2015.05.21-05.32.37:118][861]LogModuleManager: Shutting down and abandoning module HotReload (92)
-[2015.05.21-05.32.37:118][861]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
-[2015.05.21-05.32.37:118][861]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
-[2015.05.21-05.32.37:118][861]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
-[2015.05.21-05.32.37:118][861]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
-[2015.05.21-05.32.37:118][861]LogModuleManager: Shutting down and abandoning module SourceControl (87)
-[2015.05.21-05.32.37:118][861]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
-[2015.05.21-05.32.37:118][861]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
-[2015.05.21-05.32.37:118][861]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
-[2015.05.21-05.32.37:118][861]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
-[2015.05.21-05.32.37:118][861]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
-[2015.05.21-05.32.37:119][861]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
-[2015.05.21-05.32.37:119][861]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
-[2015.05.21-05.32.37:119][861]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
-[2015.05.21-05.32.37:220][861]LogModuleManager: Shutting down and abandoning module Paper2D (78)
-[2015.05.21-05.32.37:220][861]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
-[2015.05.21-05.32.37:222][861]LogModuleManager: Shutting down and abandoning module Media (76)
-[2015.05.21-05.32.37:222][861]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
-[2015.05.21-05.32.37:223][861]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2015.05.21-05.32.37:223][861]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
-[2015.05.21-05.32.37:223][861]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
-[2015.05.21-05.32.37:223][861]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
-[2015.05.21-05.32.37:223][861]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
-[2015.05.21-05.32.37:223][861]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
-[2015.05.21-05.32.37:223][861]LogModuleManager: Shutting down and abandoning module MessageLog (68)
-[2015.05.21-05.32.37:223][861]LogModuleManager: Shutting down and abandoning module Sequencer (67)
-[2015.05.21-05.32.37:223][861]LogModuleManager: Shutting down and abandoning module AssetTools (66)
-[2015.05.21-05.32.37:223][861]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
-[2015.05.21-05.32.37:223][861]LogModuleManager: Shutting down and abandoning module UMG (64)
-[2015.05.21-05.32.37:223][861]LogModuleManager: Shutting down and abandoning module Slate (63)
-[2015.05.21-05.32.37:223][861]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
-[2015.05.21-05.32.37:226][861]LogModuleManager: Shutting down and abandoning module SessionServices (61)
-[2015.05.21-05.32.37:226][861]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
-[2015.05.21-05.32.37:226][861]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
-[2015.05.21-05.32.37:226][861]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
-[2015.05.21-05.32.37:226][861]LogModuleManager: Shutting down and abandoning module Networking (56)
-[2015.05.21-05.32.37:226][861]LogModuleManager: Shutting down and abandoning module Core (55)
-[2015.05.21-05.32.37:226][861]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
-[2015.05.21-05.32.37:226][861]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
-[2015.05.21-05.32.37:226][861]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
-[2015.05.21-05.32.37:226][861]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
-[2015.05.21-05.32.37:286][861]LogDerivedDataCache: Shutdown
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module Messaging (34)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module InputCore (19)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module Settings (18)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module OculusRift (15)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2015.05.21-05.32.37:286][861]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2015.05.21-05.32.37:297][861]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2015.05.21-05.32.37:297][861]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2015.05.21-05.32.37:297][861]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.05.21-05.32.37:297][861]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.05.21-05.32.37:297][861]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.05.21-05.32.37:297][861]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.05.21-05.32.37:297][861]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.05.21-05.32.37:297][861]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.05.21-05.32.37:297][861]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.05.21-05.32.37:297][861]LogExit: Exiting.
-[2015.05.21-05.32.37:301][861]Log file closed, 05/21/15 01:32:37
+[2015.05.21-15.10.38:799][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.05.21-15.10.40:850][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.21-15.10.41:310][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.21-15.10.41:364][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.05.21-15.10.41:400][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/luisr_000/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.21-15.10.41:400][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/luisr_000/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.05.21-15.10.41:400][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.21-15.10.41:400][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.05.21-15.10.41:509][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.05.21-15.10.41:522][  0]LogDerivedDataCache: Using Local data cache path C:/Users/luisr_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.05.21-15.10.41:772][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.05.21-15.10.41:772][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.05.21-15.10.42:128][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.05.21-15.10.42:195][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.05.21-15.10.42:876][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.05.21-15.10.43:059][  0]SourceControl: Info Source control is disabled
+[2015.05.21-15.10.43:059][  0]SourceControl: Info Source control is disabled
+[2015.05.21-15.10.43:059][  0]SourceControl: Info Source control is disabled
+[2015.05.21-15.10.43:059][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.21-15.10.43:060][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.21-15.10.43:068][  0]SourceControl: Info Source control is disabled
+[2015.05.21-15.10.43:232][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.05.21-15.10.43:232][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.05.21-15.10.43:306][  0]LogEngine: Initializing Engine...
+[2015.05.21-15.10.45:481][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.05.21-15.10.45:488][  0]LogInit: FAudioDevice initialized.
+[2015.05.21-15.10.45:521][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.05.21-15.10.45:539][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/luisr_000/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.21-15.10.45:543][  0]LogInit: Texture streaming: Enabled
+[2015.05.21-15.10.45:625][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.05.21-15.10.45:625][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.21-15.10.45:625][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.21-15.10.45:625][  0]LogAnalytics: SetUserId 06a592394ae99916f49c3d9c3c9f503a|b280ebf5e1b3428db734f63de3c232be|784865b8-3393-4bba-9a10-0fd663c4f742
+[2015.05.21-15.10.45:625][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.05.21-15.10.45:645][  0]LogInit: Transaction tracking system initialized
+[2015.05.21-15.10.45:795][  0]BlueprintLog: New page: Editor Load
+[2015.05.21-15.10.45:827][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
+[2015.05.21-15.10.45:827][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.05.21-15.10.46:298][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.21-15.10.46:624][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.21-15.10.46:852][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.05.21-15.10.46:853][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.05.21-15.10.46:857][  0]LogConsoleResponse:Display: 
+[2015.05.21-15.10.47:026][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.05.21-15.10.47:164][  0]SourceControl: Info Source control is disabled
+[2015.05.21-15.10.47:164][  0]Cmd: MAP LOAD FILE="../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.21-15.10.47:226][  0]LightingResults: New page: Lighting Build
+[2015.05.21-15.10.47:238][  0]MapCheck: New page: Map Check
+[2015.05.21-15.10.47:238][  0]LightingResults: New page: Lighting Build
+[2015.05.21-15.10.47:245][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006987A82980
+[2015.05.21-15.10.50:244][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.21-15.10.51:134][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2015.05.21-15.10.51:153][  0]Cmd: MAP CHECKDEP
+[2015.05.21-15.10.51:154][  0]MapCheck: New page: SideScrollerExampleMap - May 21, 2015, 7:10:51 AM
+[2015.05.21-15.10.51:229][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 75.792ms to complete.
+[2015.05.21-15.10.51:229][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 4.066
+[2015.05.21-15.10.51:517][  0]LogCollectionManager: Loaded 0 collections in 0.001980 seconds
+[2015.05.21-15.10.51:527][  0]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 1696 classes and 261 folders.
+[2015.05.21-15.10.51:597][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0018 seconds. Added 1 classes and 2 folders.
+[2015.05.21-15.10.51:943][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.05.21-15.10.51:944][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.05.21-15.10.51:954][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.05.21-15.10.51:997][  0]LogLoad: Full Startup: 15.29 seconds (BP compile: 0.79 seconds)
+[2015.05.21-15.10.52:377][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints'
+[2015.05.21-15.10.52:494][  0]LogRenderer:Warning: Reallocating scene render targets to support 256x256 (Frame:1).
+[2015.05.21-15.10.52:982][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:4).
+[2015.05.21-15.10.54:029][  4]LogAssetRegistry: Asset discovery search completed in 8.2135 seconds
+[2015.05.21-15.18.36:112][977]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.05.21-15.18.36:228][977]LogEditorViewport: Clicking on Actor (double click): SideScrollerCharacter_C (SideScrollerCharacter)
+[2015.05.21-15.18.39:183][115]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.05.21-15.18.42:488][275]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar1)
+[2015.05.21-15.18.45:725][435]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2015.05.21-15.19.33:579][140]LogSavePackage: Save=578.235474ms
+[2015.05.21-15.19.33:579][140]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter40B773F7406854FB83DC288ED63848AA.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2015.05.21-15.22.09:262][588]LogRenderer:Warning: Reallocating scene render targets to support 1208x904 (Frame:1562).
+[2015.05.21-15.23.08:137][ 23]LogSavePackage: Save=267.701660ms
+[2015.05.21-15.23.08:137][ 23]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter33B75A9549BF7CBBFC374EAC388D2520.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2015.05.21-15.25.10:407][641]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.21-15.25.12:268][727]LogSavePackage: Save=299.418640ms
+[2015.05.21-15.25.12:268][727]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter4F19A89F473E3B9CD7A57CBCCA0FD703.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2015.05.21-15.26.26:936][559]LogSavePackage: Save=1758.751343ms
+[2015.05.21-15.26.26:936][559]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerExampleMap_Auto173C0649B419DB9FF43EB5688A63BD9EE.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto1.umap'
+[2015.05.21-15.26.27:009][559]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 1.969
+[2015.05.21-15.26.27:009][559]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.969
+[2015.05.21-15.26.27:045][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter] ([1] browsable assets)...
+[2015.05.21-15.26.27:070][559]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter]
+[2015.05.21-15.26.27:070][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter]
+[2015.05.21-15.26.27:799][559]LogSavePackage: Save=712.263611ms
+[2015.05.21-15.26.27:800][559]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter_Auto14F182C114458AA0DFE72A4A12550D2C9.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/Autosaves/Game/SideScrollerBP/Blueprints/SideScrollerCharacter_Auto1.uasset'
+[2015.05.21-15.26.27:810][559]LogFileHelpers: Auto-saving content packages took 0.801
+[2015.05.21-15.26.32:593][825]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.21-15.27.40:578][ 20]BlueprintLog: New page: Compile SideScrollerCharacter
+[2015.05.21-15.27.40:932][ 20]BlueprintEditorCompileResults: Info [1024.22] Compile of SideScrollerCharacter successful! [in 354 ms]
+[2015.05.21-15.27.42:006][ 42]LogSavePackage: Save=584.017822ms
+[2015.05.21-15.27.42:006][ 42]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacterA2EF9348443300AF54D2B0B586F26B87.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2015.05.21-15.27.45:789][199]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.21-15.27.47:742][199]LogSavePackage: Save=1769.918213ms
+[2015.05.21-15.27.47:742][199]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerExampleMap49A3D959492839E81D83E99F0556C52F.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2015.05.21-15.27.47:803][199]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 1.943
+[2015.05.21-15.29.08:312][ 33]LogSavePackage: Save=1755.989136ms
+[2015.05.21-15.29.08:312][ 33]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerExampleMap1DD47FBE4D2BF9EDE8C7BA866B4C03B0.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2015.05.21-15.29.08:360][ 33]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 1.915
+[2015.05.21-15.29.08:969][ 33]LogSavePackage: Save=581.314575ms
+[2015.05.21-15.29.08:969][ 33]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacterFBF88BAC406307CFAF1140976F7D75C5.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2015.05.21-15.29.54:332][686]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.21-15.32.17:181][598]BlueprintLog: New page: Compile SideScrollerCharacter
+[2015.05.21-15.32.17:540][598]BlueprintEditorCompileResults: Info [1300.83] Compile of SideScrollerCharacter successful! [in 358 ms]
+[2015.05.21-15.32.18:668][621]LogSavePackage: Save=607.321960ms
+[2015.05.21-15.32.18:668][621]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter92EB22194628D975CB3974B60EA72E62.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2015.05.21-15.39.07:126][848]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.21-15.39.09:070][848]LogSavePackage: Save=1826.772217ms
+[2015.05.21-15.39.09:070][848]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerExampleMap_Auto21D38AA9F49BABC07CE0BECB1A380E8D1.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto2.umap'
+[2015.05.21-15.39.09:102][848]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 1.976
+[2015.05.21-15.39.09:102][848]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.976
+[2015.05.21-15.43.19:484][696]LogSavePackage: Save=270.515625ms
+[2015.05.21-15.43.19:485][696]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter4AFFF1F341F53CAF8E23DF9C308F3F66.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2015.05.21-15.43.19:921][721]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.21-15.43.19:924][721]LogPlayLevel: [PIE] Compiling SideScrollerExampleMap before PIE...
+[2015.05.21-15.43.19:968][721]LogPlayLevel: [PIE] Compiling HUD_Bars before PIE...
+[2015.05.21-15.43.20:032][721]LogPlayLevel: PIE:  Blueprint regeneration took 110 ms (2 blueprints)
+[2015.05.21-15.43.20:032][721]PIE: New page: PIE session: SideScrollerExampleMap (May 21, 2015, 7:43:20 AM)
+[2015.05.21-15.43.20:055][721]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022525s)
+[2015.05.21-15.43.20:056][721]LogPlayLevel: PIE: World Init took: (0.000931s)
+[2015.05.21-15.43.20:056][721]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.023698s)
+[2015.05.21-15.43.20:142][721]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2015.05.21-15.43.20:144][721]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2015.05.21-15.43.20:151][721]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2015.05.21-11.43.20
+[2015.05.21-15.43.20:152][721]LogWorld: Bringing up level for play took: 0.006459
+[2015.05.21-15.43.20:152][721]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.05.21-15.43.20:169][721]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.579
+[2015.05.21-15.43.20:181][721]LogRenderer:Warning: Reallocating scene render targets to support 1296x904 (Frame:39273).
+[2015.05.21-15.45.10:444][537]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069CCBFE340
+[2015.05.21-15.45.15:899][826]LogSavePackage: Save=263.386658ms
+[2015.05.21-15.45.15:899][826]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacterF935169F4142A2E1DE69ACB91005FBD6.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2015.05.21-15.48.05:457][248]BlueprintLog: New page: Compile SideScrollerCharacter
+[2015.05.21-15.48.05:807][248]BlueprintEditorCompileResults: Info [2249.10] Compile of SideScrollerCharacter successful! [in 349 ms]
+[2015.05.21-15.48.06:808][266]LogSavePackage: Save=581.213684ms
+[2015.05.21-15.48.06:808][266]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacterC039AC414CBAA23FCEA935814456088E.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2015.05.21-15.48.08:828][384]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.21-15.48.10:791][384]LogSavePackage: Save=1761.313354ms
+[2015.05.21-15.48.10:791][384]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerExampleMapCC77969D4E05CE22BC9DFCA2ECF03072.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2015.05.21-15.48.10:842][384]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 1.943
+[2015.05.21-15.51.39:405][888]BlueprintLog: New page: Compile SideScrollerCharacter
+[2015.05.21-15.51.39:766][888]BlueprintEditorCompileResults: Info [2463.06] Compile of SideScrollerCharacter successful! [in 361 ms]
+[2015.05.21-15.51.41:011][921]LogSavePackage: Save=588.919983ms
+[2015.05.21-15.51.41:011][921]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerCharacter9A9BA597432AC12941233999884BAF86.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2015.05.21-15.51.42:554][  8]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.21-15.51.44:554][  8]LogSavePackage: Save=1832.842407ms
+[2015.05.21-15.51.44:555][  8]LogSavePackage: Moving '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Saved/SideScrollerExampleMap96C7FA2D4D63FA133103E8A8D48B546A.tmp' to '../../../../../../Users/luisr_000/Documents/Unreal Projects/Project_Shadow/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2015.05.21-15.51.44:603][  8]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 1.991
+[2015.05.21-15.51.47:205][125]Cmd: QUIT_EDITOR
+[2015.05.21-15.51.47:413][125]LogExit: Preparing to exit.
+[2015.05.21-15.51.48:136][125]LogExit: Editor shut down
+[2015.05.21-15.51.48:136][125]LogExit: Transaction tracking system shut down
+[2015.05.21-15.51.48:138][125]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000699121E0C0
+[2015.05.21-15.51.48:138][125]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069C9BEAB60
+[2015.05.21-15.51.48:138][125]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069C9FBC5E0
+[2015.05.21-15.51.48:138][125]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069CA083420
+[2015.05.21-15.51.48:139][125]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069E0E30CC0
+[2015.05.21-15.51.48:139][125]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069E0E32160
+[2015.05.21-15.51.48:139][125]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069E0E30F40
+[2015.05.21-15.51.48:389][125]LogExit: Object subsystem successfully closed.
+[2015.05.21-15.51.48:438][125]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.05.21-15.51.48:439][125]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.05.21-15.51.48:439][125]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.05.21-15.51.48:439][125]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.05.21-15.51.48:439][125]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.05.21-15.51.48:439][125]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.05.21-15.51.48:439][125]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.05.21-15.51.48:439][125]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.05.21-15.51.48:439][125]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.05.21-15.51.48:439][125]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.05.21-15.51.48:439][125]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.05.21-15.51.48:439][125]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.05.21-15.51.48:439][125]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.05.21-15.51.48:439][125]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.05.21-15.51.48:439][125]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.05.21-15.51.48:439][125]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.05.21-15.51.48:439][125]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.05.21-15.51.48:439][125]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.05.21-15.51.48:439][125]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.05.21-15.51.48:439][125]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.05.21-15.51.48:439][125]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.05.21-15.51.48:439][125]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.05.21-15.51.48:439][125]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.05.21-15.51.48:439][125]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.05.21-15.51.48:439][125]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.05.21-15.51.48:439][125]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.05.21-15.51.48:439][125]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.05.21-15.51.48:439][125]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.05.21-15.51.48:439][125]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.05.21-15.51.48:439][125]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.05.21-15.51.48:439][125]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.05.21-15.51.48:439][125]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.05.21-15.51.48:963][125]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.05.21-15.51.48:963][125]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.05.21-15.51.48:963][125]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.05.21-15.51.48:963][125]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.05.21-15.51.48:963][125]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.05.21-15.51.48:963][125]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.05.21-15.51.48:963][125]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.05.21-15.51.48:963][125]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.05.21-15.51.48:963][125]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.05.21-15.51.48:963][125]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.05.21-15.51.48:963][125]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.05.21-15.51.48:963][125]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.05.21-15.51.48:964][125]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.05.21-15.51.48:964][125]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.05.21-15.51.48:964][125]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.05.21-15.51.48:964][125]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.05.21-15.51.48:964][125]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.05.21-15.51.48:964][125]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.05.21-15.51.48:964][125]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.05.21-15.51.49:030][125]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.05.21-15.51.49:030][125]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.05.21-15.51.49:030][125]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.05.21-15.51.49:031][125]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.05.21-15.51.49:031][125]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.05.21-15.51.49:031][125]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.05.21-15.51.49:031][125]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.05.21-15.51.49:031][125]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.05.21-15.51.49:031][125]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.05.21-15.51.49:031][125]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.05.21-15.51.49:031][125]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.05.21-15.51.49:031][125]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.05.21-15.51.49:031][125]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.05.21-15.51.49:031][125]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.05.21-15.51.49:031][125]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.05.21-15.51.49:032][125]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.05.21-15.51.49:032][125]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.05.21-15.51.49:032][125]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.05.21-15.51.49:032][125]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.05.21-15.51.49:032][125]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.05.21-15.51.49:032][125]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.05.21-15.51.49:121][125]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.05.21-15.51.49:121][125]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.05.21-15.51.49:121][125]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.05.21-15.51.49:121][125]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.05.21-15.51.49:121][125]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.05.21-15.51.49:121][125]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.05.21-15.51.49:121][125]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.05.21-15.51.49:121][125]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.05.21-15.51.49:121][125]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.05.21-15.51.49:121][125]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.05.21-15.51.49:121][125]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.05.21-15.51.49:121][125]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.05.21-15.51.49:121][125]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.05.21-15.51.49:122][125]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.05.21-15.51.49:122][125]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.05.21-15.51.49:122][125]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.05.21-15.51.49:122][125]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.05.21-15.51.49:122][125]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.05.21-15.51.49:122][125]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.05.21-15.51.49:122][125]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.05.21-15.51.49:122][125]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.05.21-15.51.49:122][125]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.05.21-15.51.49:122][125]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.05.21-15.51.49:122][125]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.05.21-15.51.49:123][125]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.05.21-15.51.49:123][125]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.05.21-15.51.49:123][125]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.05.21-15.51.49:234][125]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.05.21-15.51.49:234][125]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.05.21-15.51.49:236][125]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.05.21-15.51.49:236][125]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.05.21-15.51.49:236][125]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.05.21-15.51.49:236][125]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.05.21-15.51.49:236][125]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.05.21-15.51.49:236][125]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.05.21-15.51.49:236][125]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.05.21-15.51.49:236][125]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.05.21-15.51.49:236][125]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.05.21-15.51.49:236][125]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.05.21-15.51.49:236][125]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.05.21-15.51.49:236][125]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.05.21-15.51.49:236][125]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.05.21-15.51.49:236][125]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.05.21-15.51.49:236][125]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.05.21-15.51.49:240][125]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.05.21-15.51.49:240][125]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.05.21-15.51.49:240][125]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.05.21-15.51.49:240][125]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.05.21-15.51.49:240][125]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.05.21-15.51.49:240][125]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.05.21-15.51.49:240][125]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.05.21-15.51.49:240][125]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.05.21-15.51.49:240][125]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.05.21-15.51.49:240][125]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.05.21-15.51.49:291][125]LogDerivedDataCache: Shutdown
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.05.21-15.51.49:291][125]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.05.21-15.51.49:298][125]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.05.21-15.51.49:298][125]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.05.21-15.51.49:298][125]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.05.21-15.51.49:298][125]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.05.21-15.51.49:298][125]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.05.21-15.51.49:298][125]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.05.21-15.51.49:298][125]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.05.21-15.51.49:298][125]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.05.21-15.51.49:298][125]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.05.21-15.51.49:299][125]LogExit: Exiting.
+[2015.05.21-15.51.49:303][125]Log file closed, 05/21/15 11:51:49
